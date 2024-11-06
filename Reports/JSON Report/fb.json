@@ -1,0 +1,696 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-25T16:58:29.274Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5827166400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To pass the Firstname, LastName, MobileNumber and NewPassword values",
+        "description": "",
+        "id": "to-valid-the-functionality-of-signup-page;to-pass-the-firstname--lastname--mobilenumber-and-newpassword-values",
+        "after": [
+          {
+            "result": {
+              "duration": 1419657000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1457061400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the createNewAcc URL",
+            "match": {
+              "location": "Stepdefinition.to_launch_the_createNewAcc_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404955600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Create New Account URL",
+            "match": {
+              "location": "Stepdefinition.to_Click_the_Create_New_Account_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640498300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the values for FirstName, LastName, MobileNumber, NewPassword values",
+            "match": {
+              "location": "Stepdefinition.to_pass_the_values_for_FirstName_LastName_MobileNumber_NewPassword_values(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Deiva",
+                  "Kumar",
+                  "9688284010",
+                  "Deiva@987"
+                ]
+              },
+              {
+                "cells": [
+                  "Guhan",
+                  "Deiva",
+                  "9876543210",
+                  "GDeiva@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Mona",
+                  "Kumar",
+                  "8765432109",
+                  "Mona@345"
+                ]
+              },
+              {
+                "cells": [
+                  "Atchu",
+                  "Praji",
+                  "7654321098",
+                  "AtchuPraji@000"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1374758500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select the values for DateOfBirth and Gender",
+            "match": {
+              "location": "Stepdefinition.select_the_values_for_DateOfBirth_and_Gender()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createNewAcc1"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T16:58:40.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4479906800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To pass the values in SignUp page",
+        "description": "",
+        "id": "to-valid-the-functionality-of-signup-page;to-pass-the-values-in-signup-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1434467000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.step.Stepdefinition.to_launch_the_Facebook_URL_and_click_CreateNewAcc_button(Stepdefinition.java:115)\r\n\tat ✽.To launch the Facebook URL and click CreateNewAcc button(file:createNewAcc.feature:17)\r\n",
+              "duration": 11686900,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "To launch the Facebook URL and click CreateNewAcc button",
+            "match": {
+              "location": "Stepdefinition.to_launch_the_Facebook_URL_and_click_CreateNewAcc_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101400,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "To pass the values for SignUp page",
+            "match": {
+              "location": "Stepdefinition.to_pass_the_values_for_SignUp_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "Lastname",
+                  "MobileNumber",
+                  "NewPassword"
+                ]
+              },
+              {
+                "cells": [
+                  "Jammu",
+                  "Kashmir",
+                  "9123456780",
+                  "JammuKash@780"
+                ]
+              },
+              {
+                "cells": [
+                  "My",
+                  "Love",
+                  "8956743210",
+                  "Mine@210"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81900,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Select the values for DateOfBirth and Gender",
+            "match": {
+              "location": "Stepdefinition.select_the_values_for_DateOfBirth_and_Gender()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createNewAcc1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To valid the functionality of signup page",
+    "description": "",
+    "id": "to-valid-the-functionality-of-signup-page",
+    "keyword": "Feature",
+    "uri": "file:createNewAcc.feature",
+    "tags": [
+      {
+        "name": "@createNewAcc1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-25T16:58:46.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4491116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To pass the value for Email Address",
+        "description": "",
+        "id": "to-valid-the-functionality-of-forgotten-password-function;to-pass-the-value-for-email-address",
+        "after": [
+          {
+            "result": {
+              "duration": 1663824200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1932496000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "We have to launch the Facebook URL",
+            "match": {
+              "location": "Stepdefinition.we_have_to_launch_the_Facebook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3425883200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to pass the value for Email or MobileNumber",
+            "match": {
+              "location": "Stepdefinition.user_have_to_pass_the_value_for_Email_or_MobileNumber(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "deivaguhan@0105",
+                  "guhandeiva@9876",
+                  "monakumar@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Forgotpass"
+          }
+        ]
+      }
+    ],
+    "name": "To valid the functionality of forgotten password function",
+    "description": "",
+    "id": "to-valid-the-functionality-of-forgotten-password-function",
+    "keyword": "Feature",
+    "uri": "file:forgotpass.feature",
+    "tags": [
+      {
+        "name": "@Forgotpass",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-25T16:58:57.932Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5288008900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": " To pass the values for userName and Password",
+        "id": "to-validate-the-functionality-to-login-the-facebook;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1441640400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1461740600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Launch the FaceBook URL",
+            "match": {
+              "location": "Stepdefinition.to_Launch_the_FaceBook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208970300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Pass the values for \"smartskills@gmail.com\" and \"smart@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartskills@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"smart@123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinition.pass_the_values_for_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5298119300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the login button",
+            "match": {
+              "location": "Stepdefinition.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T16:59:11.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4853117900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": " To pass the values for userName and Password",
+        "id": "to-validate-the-functionality-to-login-the-facebook;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1518974400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1359589000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Launch the FaceBook URL",
+            "match": {
+              "location": "Stepdefinition.to_Launch_the_FaceBook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177717800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Pass the values for \"hcl123@gmail.com\" and \"hcl@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hcl123@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"hcl@123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Stepdefinition.pass_the_values_for_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5309171400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the login button",
+            "match": {
+              "location": "Stepdefinition.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T16:59:24.863Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4821832600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": " To pass the values for userName and Password",
+        "id": "to-validate-the-functionality-to-login-the-facebook;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2092846000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1388031000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Launch the FaceBook URL",
+            "match": {
+              "location": "Stepdefinition.to_Launch_the_FaceBook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177445000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Pass the values for \"karpagam987@gmail.com\" and \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karpagam987@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinition.pass_the_values_for_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1941574900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the login button",
+            "match": {
+              "location": "Stepdefinition.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-25T16:59:35.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5138247700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": " To pass the values for userName and Password",
+        "id": "to-validate-the-functionality-to-login-the-facebook;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1365235500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1535840300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Launch the FaceBook URL",
+            "match": {
+              "location": "Stepdefinition.to_Launch_the_FaceBook_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215402600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Pass the values for \"deiva567@gmail.com\" and \"deiva@567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deiva567@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"deiva@567\"",
+                  "offset": 45
+                }
+              ],
+              "location": "Stepdefinition.pass_the_values_for_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1680325400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the login button",
+            "match": {
+              "location": "Stepdefinition.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality to login the Facebook",
+    "description": "",
+    "id": "to-validate-the-functionality-to-login-the-facebook",
+    "keyword": "Feature",
+    "uri": "file:login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
